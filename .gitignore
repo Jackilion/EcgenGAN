@@ -1,0 +1,29 @@
+#ignore cache
+GAN/__pycache__/
+#ignore the data cause its too big
+data/incartdb/
+data/mitdb/
+data/synthetic/
+temp/
+real_images/
+#ignore the checkpoints
+GAN/models/
+GAN/images/
+GAN/metrics/
+
+#infoGAN
+infoGAN/__pycache__/
+infoGAN/models/
+infoGAN/images/
+infoGAN/metrics/
+
+
+#cGAN
+cGAN/__pycache__/
+cGAN/models/
+cGAN/images/
+cGAN/metrics/
+
+*.png
+*.pyc
+*.txt
