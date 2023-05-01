@@ -25,5 +25,6 @@ cGAN/images/
 cGAN/metrics/
 
 *.png
+!img/*png
 *.pyc
 *.txt
